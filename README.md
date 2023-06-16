@@ -16,10 +16,10 @@
 
 - 🌱 I’m currently learning **React Js and ReactNstive JavaScript**
 
-<!-- - 🔭 I’m currently working on ** -------------** -->
+🔭 I’m currently working on **Carpool (ride sharing app)**
 
 
-<!-- - 👨‍💻 All of my projects are available at  https://rogendo.github.io/Rogendo/ -->
+👨‍💻 All of my projects are available at  https://rogendo.github.io/Rogendo/ 
 
 - 💬 Ask me anything about Python, JavaScript.
 
