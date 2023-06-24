@@ -20,7 +20,7 @@
 
 
 - 👨‍💻 All of my projects are available at  https://github.com/Rogendo/
-- Website https://rogendo.io/github/Rogendo
+- Website https://rogendo.github.io/Rogendo/
 
 - 💬 Ask me anything about Python, JavaScript.
 
