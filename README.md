@@ -19,7 +19,8 @@
 - I’m currently working on **Carpool (ride sharing app)**
 
 
-- 👨‍💻 All of my projects are available at  https://rogendo.github.io/Rogendo/ 
+- 👨‍💻 All of my projects are available at  https://github.com/Rogendo/
+- Website https://rogendo.io/github/Rogendo
 
 - 💬 Ask me anything about Python, JavaScript.
 
