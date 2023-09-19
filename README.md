@@ -14,15 +14,13 @@
 
 - 🔭 I’m a Computer Science student **@Kabarak University**
 
-- 🌱 I’m currently learning **React Js and ReactNstive JavaScript**
-
-- I’m currently working on **Carpool (ride sharing app)**
+- 🌱 I’m currently learning **Flutter and Dart**
 
 
 - 👨‍💻 All of my projects are available at  https://github.com/Rogendo/
 - Website https://rogendo.github.io/Rogendo/
 
-- 💬 Ask me anything about Python, JavaScript.
+- 💬 Ask me anything about Python.
 
 
 - 📫 How to reach me **https://www.linkedin.com/in/peter-rogendo/**
