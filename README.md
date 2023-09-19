@@ -1,6 +1,3 @@
-
-
-
 <h1 align="center">Hi 👋, I'm Peter Rogendo </h1>
 <h3 align="center">A passionate software developer from Kenya</h3>
 
@@ -8,7 +5,6 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Rogendo&label=Profile%20views&color=0e75b6&style=flat" alt="Rogendo" /> </p>
 
 <p align="left"> <a href="https://twitter.com/RogendoPeter" target="blank"><img src="https://img.shields.io/twitter/follow/RogendoPeter" alt="Rogendo" /></a> </p>
-
 
 
 
@@ -41,4 +37,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=rogendo&show_icons=true&locale=en" alt="rogendo" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rogendo&" alt="rogendo" /></p>
-
