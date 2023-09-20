@@ -44,7 +44,7 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/Rogendo/Rogendo/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/Rogendo/Rogendo/snake.svg" alt="Snake animation" />
 
 ###
 
