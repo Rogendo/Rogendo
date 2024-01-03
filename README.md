@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Peter Rogendo </h1>
-<h3 align="center">A passionate software developer from Kenya</h3>
+<h3 align="center">A passionate software developer and a Machine Learning enthusiast from Kenya</h3>
 
 <img align="right" alt="coding" width="400" src="https://media4.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" >
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Rogendo&label=Profile%20views&color=0e75b6&style=flat" alt="Rogendo" /> </p>
@@ -8,14 +8,14 @@
 
 
 
-- 🔭 I’m a Computer Science student **@Kabarak University**
+- 🔭 I’m a Computer Science Final year student at **@Kabarak University**
 
-- 🌱 I’m currently working on <a href="https://github.com/Rogendo/DataCanvas">DataCanvas</a>  A Data marketplace.
+- 🌱 Currently working on <a href="https://github.com/Rogendo/DataCanvas">DataCanvas</a>  A Data marketplace.
 
 - 👨‍💻 All of my projects are available at  https://github.com/Rogendo/
 - Website https://rogendo.github.io/Rogendo/
 
-- 💬 Ask me anything about Python.
+- 💬 Ask me anything about Python and Machine Learning.
 
 
 - 📫 How to reach me **https://www.linkedin.com/in/peter-rogendo/**
