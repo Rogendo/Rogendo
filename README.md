@@ -10,8 +10,7 @@
 
 - 🔭 I’m a Computer Science student **@Kabarak University**
 
-- 🌱 I’m currently learning **Flutter and Dart**
-
+- 🌱 I’m currently working on <a href="https://github.com/Rogendo/DataCanvas">DataCanvas a Data marketplace.</a>
 
 - 👨‍💻 All of my projects are available at  https://github.com/Rogendo/
 - Website https://rogendo.github.io/Rogendo/
