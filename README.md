@@ -21,10 +21,13 @@
 - 📫 How to reach me **https://www.linkedin.com/in/peter-rogendo/**
 
 - ⚡ Fun fact **Give it a trial when you still think you cant do it**
+
+  
 <h3>SKILLS</h3>
 <li>Web Scraping</li>
 <li>Data Analysis</li>
 <li>Machine Learning Development</li>
+<li>MLOps</li>
 <li>Web Development</li>
 
 <h3 align="left">Connect with me:</h3>
