@@ -21,6 +21,11 @@
 - 📫 How to reach me **https://www.linkedin.com/in/peter-rogendo/**
 
 - ⚡ Fun fact **Give it a trial when you still think you cant do it**
+<h3 align="center">SKILLS</h3>
+<li>Web Scraping</li>
+<li>Data Analysis</li>
+<li>Machine Learning Development</li>
+<li>Web Development</li>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -35,11 +40,6 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rogendo&" alt="rogendo" /></p>
 
-<h3 align="left">SKILLS</h3>
-<li>Web Scraping</li>
-<li>Data Analysis</li>
-<li>Machine Learning Development</li>
-<li>Web Development</li>
 
 
 ###
