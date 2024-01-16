@@ -35,6 +35,12 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rogendo&" alt="rogendo" /></p>
 
+<h3 align="left">SKILLS</h3>
+<li>Web Scraping</li>
+<li>Data Analysis</li>
+<li>Machine Learning Development</li>
+<li>Web Development</li>
+
 
 ###
 <h3 align="left">Languages and Tools:</h3>
