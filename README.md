@@ -8,12 +8,10 @@
 
 
 
-- 🔭 I’m a Computer Science Final year student at **@Kabarak University**
 
-- 🌱 Currently working on <a href="https://github.com/Rogendo/DataCanvas">DataCanvas</a>  A Data marketplace.
+- 🌱 Currently collaborating on <a href="https://github.com/Rogendo/ChatbotSDK">ChatbotSDK</a>  An automated Chatbot creation Webapplication. The chatbot engines supported are LLMS, LSTM, RNN and Transformer Chatbots. With just a  click, You'd be ready to deploy your customer support AI assistant. Best for businesses as one could create the assistants without the need for learning any programming language. 
 
-- 👨‍💻 All of my projects are available at  https://github.com/Rogendo/
-- Website https://rogendo.github.io/Rogendo/
+- 👨‍💻 Website https://rogendo.github.io/Rogendo/
 
 - 💬 Ask me anything about Python and Machine Learning.
 
