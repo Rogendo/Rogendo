@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Peter Rogendo </h1>
-<h3 align="center">A passionate software developer and a Machine Learning enthusiast from Kenya</h3>
+<h3 align="center">A passionate Machine Learning Engineer and a Software Developer from Kenya</h3>
 
 <img align="right" alt="coding" width="400" src="https://media4.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" >
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Rogendo&label=Profile%20views&color=0e75b6&style=flat" alt="Rogendo" /> </p>
