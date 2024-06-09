@@ -22,6 +22,8 @@
 
 - ⚡ Fun fact **Give it a trial when you still think you cant do it**
 
+
+<a href="https://gitroll.io/profile/uDp2MdWvO1sfJks1hNm57dFzEemH3" target="_blank"><img src="https://gitroll.io/api/badges/profiles/v1/uDp2MdWvO1sfJks1hNm57dFzEemH3" alt="GitRoll Profile Badge"/></a>
   
 <h3>SKILLS</h3>
 <li>Web Scraping</li>
