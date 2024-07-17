@@ -12,7 +12,7 @@
 - 🌱
 - 👨‍💻 Website https://rogendo.github.io/Rogendo/
 
-- 💬 Ask me anything about Python and Machine Learning.
+- 💬 Ask me anything about Python, JavaScript and Machine Learning.
 
 
 - 📫 How to reach me **https://www.linkedin.com/in/peter-rogendo/**
