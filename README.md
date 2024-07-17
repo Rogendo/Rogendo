@@ -9,10 +9,7 @@
 
 
 
-- 🌱 Currently collaborating on <a href="https://github.com/Rogendo/ChatbotSDK">ChatbotSDK</a>  An automated Chatbot creation Webapplication.
-  The chatbot engines supported are LLMS, LSTM, RNN and Transformer. With just a  click, you'd be ready to deploy your customer support AI assistant.
-  Best for businesses as one could create the   assistants without the need for learning any programming language. 
-
+- 🌱
 - 👨‍💻 Website https://rogendo.github.io/Rogendo/
 
 - 💬 Ask me anything about Python and Machine Learning.
