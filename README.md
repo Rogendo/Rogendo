@@ -10,7 +10,7 @@
 
 
 - 🌱
-- 👨‍💻 Website https://rogendo.github.io/Rogendo/
+- 👨‍💻 Website https://codeaxe.co.ke/Rogendo/
 
 - 💬 Ask me anything about Python, JavaScript and Machine Learning.
 
