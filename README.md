@@ -1,38 +1,56 @@
-<h1 align="center">Hi 👋, I'm Peter Rogendo </h1>
-<h3 align="center">A passionate Machine Learning Engineer and a Software Developer from Kenya</h3>
+<h1 align="center">Hi 👋, I'm Peter Rogendo</h1>
+<h3 align="center">Digital Health Business Analyst | ML Engineer | Software Developer</h3>
 
-<img align="right" alt="coding" width="400" src="https://media4.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" >
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Rogendo&label=Profile%20views&color=0e75b6&style=flat" alt="Rogendo" /> </p>
+<img align="right" alt="coding" width="400" src="https://media4.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif">
 
-<p align="left"> <a href="https://twitter.com/RogendoPeter" target="blank"><img src="https://img.shields.io/twitter/follow/RogendoPeter" alt="Rogendo" /></a> </p>
+<p align="left"> 
+  <img src="https://komarev.com/ghpvc/?username=Rogendo&label=Profile%20views&color=0e75b6&style=flat" alt="Rogendo" />
+</p>
+<p align="left">
+  <a href="https://twitter.com/RogendoPeter" target="blank">
+    <img src="https://img.shields.io/twitter/follow/RogendoPeter" alt="Rogendo" />
+  </a>
+</p>
 
+---
 
+- 🌱 Specializing in digital solutions architect, public sector AI, and ethical data solutions.
+- 👨‍💻 Actively building and deploying AI tools for real-world health and societal impact.
+- 💬 Ask me about digital health, AI/ML, LLMs, GenAI, Python, or end-to-end software delivery.
+- 📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/peter-rogendo/)
+- ⚡ Fun fact: Give it a trial even when you think you can't do it! Thank me later 😂
 
+---
 
-- 🌱
-- 👨‍💻 Website 
+<h3>What I Do</h3>
 
-- 💬 Ask me anything about Data, Python, JavaScript and Machine Learning.
+<li>Design and deploy digital health and public sector platforms (East Africa, beyond)</li>
+<li>Architect and lead implementation of AI-driven solutions, e.g.:
+  <ul>
+    <li>n8n AI/ML process and workflow automations</li>
+    <li>Multilingual chatbots and agentic systems</li>
+    <li>AI modules powering child helpline systems across several countries</li>
+    <li>Bias reduction for LLMs via Google/Makerere AI Labs partnership</li>
+  </ul>
+</li>
 
-
-- 📫 How to reach me **https://www.linkedin.com/in/peter-rogendo/**
-
-- ⚡ Fun fact **Give it a trial when you still think you cant do it**
-
-
-<a href="https://gitroll.io/profile/uDp2MdWvO1sfJks1hNm57dFzEemH3" target="_blank"><img src="https://gitroll.io/api/badges/profiles/v1/uDp2MdWvO1sfJks1hNm57dFzEemH3" alt="GitRoll Profile Badge"/></a>
-  
 <h3>SKILLS</h3>
-<li>Web Scraping</li>
-<li>Data Analysis</li>
-<li>Machine Learning Development</li>
-<li>MLOps</li>
-<li>Web Development</li>
+<li>Business Analysis & Requirements Engineering</li>
+<li>Digital Health & Health IT</li>
+<li>AI/ML Solution Design & Development</li>
+<li>Software Engineering: Python, JavaScript, Django, Node.js</li>
+<li>Data Analysis & Annotation, NLP</li>
+<li>MLOps & Deployment</li>
+<li>Cross-team & Stakeholder Engagement</li>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/PeterRogendo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="rogendo" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/peter-rogendo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="peter-rogendo" height="30" width="40" /></a>
+  <a href="https://twitter.com/RogendoPeter" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="rogendo" height="30" width="40" />
+  </a>
+  <a href="https://linkedin.com/in/peter-rogendo" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="peter-rogendo" height="30" width="40" />
+  </a>
 </p>
 
 
