@@ -1,385 +1,1032 @@
-<!DOCTYPE html> 
-<head>
-   <meta charset="utf-8">
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Peter Rogendo, Rogendo Kumaar Murali GitHub, Rogendo github, Rogendo GitHub, 
+        , Rogendopeter, Rogendo , Artificial Intelligence, AI, Deep Learning, Machine Learning, DL, ML, 
+        Web, web, app, developer, github, git, projects, tutorials, keywords, seo, artificial intelligence, deep learning, machine learning, 
+        dl, ml, deeplearning, machinelearning, DeepLearning, MachineLearning, Cybersecurity, cybersecurity, research, machine learning india, 
+        india, R&D, Rogendo, Rogendo AI, Rogendo Artificial Intelligence, Rogendo Deep Learning, Rogendo Machine Learning">
+        <meta name="author" content="Peter Rogendo">
+        <meta name="description" content="Hey there! I'm Rogendo. I'm a Machine Learning Engineer from Kenya.">
 
-   <!-- mobile specific metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- Title
-	================================================= -->
-	<title>Home | Rogendo</title>
-	<link rel="icon" type="image/png" href="./icon.png">
+        <link rel="icon" href="./assets/img/favicon.png">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="./assets/css/styles.css">
 
+        <title>Rogendo - Dev Portfolio</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo"><i class="uil uil-circle"></i> Rogendo</a>
 
- 	<!-- CSS
-   ================================================== -->
-   <link rel="stylesheet" href="base.css">  
-   <link rel="stylesheet" href="main.css">
-   <link rel="stylesheet" href="vendor.css">
-  
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
 
-   <!-- script
-   ================================================== -->   
-	\<script src="modernizr.js"></script>
-	<script src="pace.min.js"></script>
-	
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N57FLDHVDP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Experience
+                            </a>
+                        </li>
 
-  gtag('config', 'G-N57FLDHVDP');
-</script>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-chart-pie-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
 
-	
-</head>
+                        <li class="nav__item">
+                            <a href="#research" class="nav__link">
+                                <i class="uil uil-flask nav__icon"></i> Research
+                            </a>
+                        </li>
 
-<body id="top">
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Projects
+                            </a>
+                        </li>
 
-	<!-- header 
-   ================================================== -->
-   <header>   	
-   	<div class="">
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact
+                            </a>
+                        </li>
 
-   		<div class="bar">
-   			<a class="menu-toggle" href="#"><span>Menu</span></a>	      
+                    </ul>
+                    
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
 
-		   	<nav id="main-nav-wrap">
-					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
-						<li><a class="smoothscroll"  href="#" title="">Work Experience</a></li>	
-						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>					
-					</ul>
-				</nav>    		
-   		</div> <!-- /top-bar --> 
-   		
-   	</div> <!-- /row --> 		
-   </header> <!-- /header -->
+                <div class="nav__btns">
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
 
-	<!-- intro section
-   ================================================== -->
-   <section id="intro">   
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-   	<div class="intro-overlay"></div>	
+        <main class="main">
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/peter-rogendo/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
 
-   	<div class="intro-content">
-   		<div class="row">
-			<style>
-				.round-image {
-				  border-radius: 50%;
-				  width:200px;
-				  height:200px;
-				  opacity: 40%;
-				  
-				}
-				.project-img {
-					border-radius: 5%;
-				  	width:200px;
-				  	height:120px;
+                            <a href="https://github.com/Rogendo" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>                            
+                            </a>
+    
+                            <a href="https://x.com/nayneK254" target="_blank" class="home__social-icon">
+                                <i class="uil uil-twitter-alt"></i>                       
+                            </a>                           
+                        </div>
+    
+                        <div class="home__img">
+                            <svg class="home__blob" ViewBox="0 0 200 187">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
 
-				}
-			  </style>
-						
-			  <img src="./rogendo.jpg" alt="Rogendo" class="round-image">
-   			<div class="col-twelve">
-				   <h2>Hi, I'm Peter Rogendo</h2>
-					<p style="color: #fff;"> I am an adept Software Engineer, proficient in Python, Machine Learning, Deep Learning, and Data Analysis for Data Science, with a track record of delivering products and solutions in the industry and community.</p>
-				<p class="intro-position">
-                        <span>Full Stack Developer</span>
-                        <span>ML Engineer </span>
-                        <span>Data Scientist</span>
-						<span>Computer Technician</span>
-                    </p>
+                                    <image class="home__blob-img" x="15" y="12" xlink:href="./assets/img/me.jpg"/>
 
-	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+                                </g>
+                            </svg>
+                        </div>
 
-	   		</div>  
-   			
-   		</div>   		 		
-   	</div> <!-- /intro-content --> 
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'm Rogendo</h1>
+                            <h3 class="home__subtitle">☕️ </h3>
+                            
+                            <p class="home__description">
+                                Data Science | Software Engineering | Machine Learning
+                            </p>
+                            
+                            <a href="#contact" class="button button--flex">
+                                Contact <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
 
-        <ul class="intro-social">
-            <li><a href="https://github.com/Rogendo" target="_blank"><i class="uil uil-github-alt"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/peter-rogendo/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></li>
-			<li><a href="https://twitter.com/RogendoPeter?s=09" target="_blank"><i class="uil uil-twitter-alt"></i></a></li>
-			<li><a href="https://api.whatsapp.com/send?phone=254794197997" target="_blank"><i class="uil uil-whatsapp"></i></i></a></li>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
 
+            <section class="about section" id="about">
+                <h2 class="section__title">About</h2>
+                <span class="section__subtitle">My Introduction</span>
 
-        </ul> <!-- /intro-social -->      	
+                <div class="about__container container grid">
+                    <img src="./assets/img/about_section.jpg" alt="Thumbs Up" class="about__img">
 
-   </section> <!-- /intro -->
+                    <div class="about__data">
+                        <p class="about__description">
+                             I help businesses turn data and ideas into working products — from analytics dashboards and predictive models to web apps, scrapers, and automation scripts.
+  My core stack spans web app and backend development, ML and data modeling, exploratory data analysis, web scraping & data sourcing, and advanced NLP.
+  Whether you need a clean dataset, an end‑to‑end ML pipeline, or a custom tool that removes repetitive work, I design, build, and deploy solutions that ship and are easy to use.
+  If you’re looking for a partner to scope your problem, prototype fast, and deliver results, let’s work together.
+                        </p>
 
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">03+</span>
+                                <span class="about__info-name">Years XP</span>
+                            </div>
 
-   <!-- about section
-   ================================================== -->
-   <section id="about">
-   	<div class="row about-content">
+                            <div>
+                                <span class="about__info-title">21+</span>
+                                <span class="about__info-name">Projects</span>
+                            </div>
 
-   		<div class="">
+                            <div>
+                                <span class="about__info-title">03+</span>
+                                <span class="about__info-name">Companies</span>
+                            </div>
+                        </div>
 
-   			<h3>Profile</h3>
-                <p style="text-align:justify;">I am a Computer Scientist, a graduate from Kabarak University with an excellent academic background and diverse skillset.            
-                   I am well versed with Python, Website Development, Machine Learning Development, Data Analysis, and Reactjs.</p>
+                        <div class="about__buttons">
+                            <a href="#contact" class="button button--flex">
+                                Leave a message <i class="uil uil-comment-download button__icon"></i>
+                            </a>
+                        </div>
 
-   		</div>
+                    </div>
+                </div>
+            </section>
 
-   	</div>
+            <section class="qualification section" id="experience">
+                <h2 class="section__title">Experience</h2>
+                <span class="section__subtitle">My journey in the academic & professional front</span>
 
-   	<div class="row button-section">
-   		<div class="col-twelve">
-   			<a href="https://api.whatsapp.com/send?phone=254794197997" target="_blank" class="button stroke">Hire Me</a>
-   			<a href="cv.pdf" title="Download CV" class="button button-primary">Download CV</a>
-   		</div>   		
-   	</div>
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Academic
+                        </div>
 
-   </section> <!-- /process-->    
+                        <div class="qualification__button button--flex qualification__active" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Professional
+                        </div>
+                    </div>
 
+                    <div class="qualification__sections">
+                        <div class="qualification__content" data-content id="education">
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">B.Science - Computer Science</h3>
+                                    <span class="qualification__subtitle">Kabarak University, Nakuru</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2020 - 2024
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="qualification__data">                                 
+                                <div></div>
 
-   <!-- resume Section
-   ================================================== -->
-	<section id="resume" class="grey-section">
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                          
+                                <div>
+                                    <h3 class="qualification__title">Software Engineering Bootcamp</h3>
+                                    <span class="qualification__subtitle">Zalego Institute</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2019
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">High School</h3>
+                                    <span class="qualification__subtitle">Lenana School | Nairobi</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2015 - 2018
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div class="qualification__content qualification__active" data-content id="work">
 
-		<div class="row section-intro">
-   		<div class="col-twelve">
+                           
+                            <div class="qualification__data">
+                                <div></div>
+    
+                                <div class="qualification__time">
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
 
-   			<h5>Resume</h5>
-            <h2>More of my Credentials</h2>
-   		</div>   		
-   	</div> <!-- /section-intro--> 
+                                <div>
+                                    <h3 class="qualification__title">Machine Learning Lead</h3>
+                                    <span class="qualification__subtitle">BITZ-IT Consulting</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        May 2025 - Present
+                                    </div>
+                                </div>
+                            </div>
 
-   	<div class="row resume-timeline">
-
-   		<div class="col-twelve resume-header">
-
-   			<h2>Education</h2>
-
-   		</div> <!-- /resume-header -->
-
-   		<div class="col-twelve">
-
-   			<div class="timeline-wrap">
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="uil uil-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Bachelor's Degree</h3>
-	   					<p>Sept 2020 - Dec (2024)</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4><a href="https://kabarak.ac.ke/">Kabarak University</a></h4>
-	   					<p>A current student studying for a Degree of Bachelor of Science in Computer Science and Bioinformatics. Degree specialization in Software at Kabarak University - Nakuru, Kenya </p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-				   <div class="timeline-block">
-
-					<div class="timeline-ico">
-						<i class="uil uil-briefcase"></i>
-					</div>
-
-					<div class="timeline-header">
-						<h3>Certificate</h3>
-						<p>Jan 2019 - June (2019)</p>
-					</div>
-
-					<div class="timeline-content">
-						<h4><a href="https://www.zalegoacademy.institute/">Zalego Academy</a></h4>
-						<p>Completed my short course on Standard software development; Python Programming, Android Programming and Website development. - Nairobi, Kenya.</p>
-					</div>
-
-				</div> <!-- /timeline-block -->
+                            
+    
                 
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Data Annotator</h3>
+                                    <span class="qualification__subtitle">JHUB, Makerere AI Labs, GOOGLE</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        June 2024
+                                    </div>
+                                </div>
+
+                                <div class="qualification__time">
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+                                <div></div>
+    
+                                <div class="qualification__time">
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Data Scraper </h3>
+                                    <span class="qualification__subtitle">Lish AI Labs - Simba AI</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        Jan 2025 - May 2025
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Freelance Solutions Expert</h3>
+                                    <span class="qualification__subtitle">Upwork, Freelancer/Independent </span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2023, 2024
+                                    </div>
+                                </div>
+
+                                <div class="qualification__time">
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Health IT Intern</h3>
+                                    <span class="qualification__subtitle">Langalanga Hospital</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        May 2024 - Sep 2024
+                                    </div>
+                                </div>
+    
+                            </div>
+
+
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Data Analyst Intern</h3>
+                                    <span class="qualification__subtitle">Kenya Power</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                         May 2023 - Sep 2023
+                                    </div>
+                                </div>
+
+                                <div class="qualification__time">
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                        
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical & other skills</span>
+
+                <div class="skills__container container grid">
+                    
+                    <div>
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brain skills__icon"></i>
+    
+                                <div>
+                                    <h1 class="skills__title">Data Science & AI</h1>
+                                    <span class="skills__subtitle">2 Years XP</span>
+                                </div>
+    
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+    
+                            <div class="skills__list grid">  
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Computer Vision</h3>
+                                        <span class="skills__number">75%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__cv"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Generative AI</h3>
+                                        <span class="skills__number">95%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__nlp"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Natural Language Processing</h3>
+                                        <span class="skills__number">95%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__nlp"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Signal Processing</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__ap"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Probability & Statistics</h3>
+                                        <span class="skills__number">75%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__ps"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Data Analytics & Visualization</h3>
+                                        <span class="skills__number">85%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__dav"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Frameworks & Libraries </h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__frameworks"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Programming</h1>
+                                    <span class="skills__subtitle">3+ Years XP</span>
+                                </div>
+                                
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+
+                                <div class="skills__list grid">
+                                    
+                                    <div class="skills__data">
+                                        <div class="skills__titles">
+                                            <h3 class="skills__name">Python</h3>
+                                            <span class="skills__number">90%</span>
+                                        </div>
+                                        <div class="skills__bar">
+                                            <span class="skills__percentage skills__python"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <div class="skills__titles">
+                                            <h3 class="skills__name">SQL</h3>
+                                            <span class="skills__number">80%</span>
+                                        </div>
+                                        <div class="skills__bar">
+                                            <span class="skills__percentage skills__sql"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <div class="skills__titles">
+                                            <h3 class="skills__name">Java</h3>
+                                            <span class="skills__number">60%</span>
+                                        </div>
+                                        <div class="skills__bar">
+                                            <span class="skills__percentage skills__java"></span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="skills__data">
+                                        <div class="skills__titles">
+                                            <h3 class="skills__name">C++</h3>
+                                            <span class="skills__number">70%</span>
+                                        </div>
+                                        <div class="skills__bar">
+                                            <span class="skills__percentage skills__cpp"></span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                        </div>
+
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-cloud-computing skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Computing</h1>
+                                    <span class="skills__subtitle">3+ Years XP</span>
+                                </div>
+                                
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+
+                                <div class="skills__list grid">
+                                    <div class="skills__data">
+                                        <div class="skills__titles">
+                                            <h3 class="skills__name">GPU & Distributed Computing</h3>
+                                            <span class="skills__number">85%</span>
+                                        </div>
+                                        <div class="skills__bar">
+                                            <span class="skills__percentage skills__gpu"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <div class="skills__titles">
+                                            <h3 class="skills__name">Amazon Web Services</h3>
+                                            <span class="skills__number">50%</span>
+                                        </div>
+                                        <div class="skills__bar">
+                                            <span class="skills__percentage skills__aws"></span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="skills__data">
+                                        <div class="skills__titles">
+                                            <h3 class="skills__name">Google Cloud Platform</h3>
+                                            <span class="skills__number">65%</span>
+                                        </div>
+                                        <div class="skills__bar">
+                                            <span class="skills__percentage skills__gcp"></span>
+                                        </div>
+                                    </div>
+
+                                    
+                                </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-swatchbook skills__icon"></i>
+    
+                                <div>
+                                    <h1 class="skills__title">Front End</h1>
+                                    <span class="skills__subtitle">3 Years XP</span>
+                                </div>
+    
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+    
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">85%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__number">75%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">React JS</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__react"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">VueJs</h3>
+                                        <span class="skills__number">85%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__vue"></span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+    
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-server-network skills__icon"></i>
+    
+                                <div>
+                                    <h1 class="skills__title">BackEnd</h1>
+                                    <span class="skills__subtitle">3 Years XP</span>
+                                </div>
+    
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+    
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python - Django, Flask, Fast API</h3>
+                                        <span class="skills__number">95%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__pythons"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Firebase</h3>
+                                        <span class="skills__number">55%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__firebase"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Java - Spring Framework</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__javas"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Node JS, Express JS</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__node"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-analysis skills__icon"></i>
+    
+                                <div>
+                                    <h1 class="skills__title">Misc</h1>
+                                    <span class="skills__subtitle">2+ Years XP</span>
+                                </div>
+    
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+    
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__git"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Linux</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__linux"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">DVC, MLFlow</h3>
+                                        <span class="skills__number">85%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__dvcmlflow"></span>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonial section" id="research">
+                <h2 class="section__title">Research</h2>
+                <span class="section__subtitle">My research publications, conference contributions, & patents</span>
+
+                <div class="testimonial__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="testimonial__content">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+        
+                                    <div>
+                                        <h3 class="testimonial__name">Leveraging Artificial Intelligence for Real-Time Carbon Emission Management and Climate Change Resilience Planning in Kenya </h3>
+                                        <span class="testimonial__client">Conference: NeurIPS, 2024<br>
+                                            Link: <a href="https://www.climatechange.ai/papers/neurips2024/98">https://www.climatechange.ai/papers/neurips2024/98</a><br>
+                                            Author(s):Peter Rogendo ; Alukwe Jones ; Theophilus Owiti ; Mercy Gachoka
+                                        </span>
+                                    </div>
+                                </div>
+    
+                            </div>
+    
+                            <p class="testimonial__description">
+                                As climate change intensifies, reducing carbon emissions has emerged as a critical global objective. Countries like Kenya, which heavily depend on agriculture and 
+                                pastoral systems, are disproportionately affected by changing climatic conditions
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-wrapper">
+                        <div class="testimonial__content">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+        
+                                    <div>
+                                        <h3 class="testimonial__name">Beyond the Hype: Building Production-Ready AI for Helplines with DistilBERT Fine-Tuning</h3>
+                                        <span class="testimonial__client"><br>
+                                            Link: <a href="https://www.linkedin.com/pulse/beyond-hype-building-production-ready-ai-helplines-peter-rogendo-wb5pf/?trackingId=7c8uwk9OTLyCRoUrbUmi5Q%3D%3D">https://www.linkedin.com/pulse/beyond-hype-building-production-ready-ai-helplines-peter-rogendo-wb5pf/?trackingId=7c8uwk9OTLyCRoUrbUmi5Q%3D%3D</a><br>
+                                            Author: Peter Rogendo
+                                        </span>
+                                    </div>
+                                </div>
+    
+                            </div>
+    
+                            <p class="testimonial__description">
+                                Our challenge was immense: how to instantly categorize sensitive, unstructured conversations from a child protection helpline. The goal was to automatically detect the main issue, specific sub-topic, required intervention, and urgency level to ensure children get the right help, fast.
+
+
+                            </p>
+                        </div>
+                    </div>
+
+                    
+
+
+                    <div class="swiper-pagination swiper-pagination-testimonial"></div>
+                </div>
                 
-	   			<div class="timeline-block">
+            </section>
 
-	   				<div class="timeline-ico">
-	   					<i class="uil uil-briefcase"></i>
-	   				</div>
+            <section class="portfolio section" id="projects">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">My independent projects & contributions</span>
 
-	   				<div class="timeline-header">
-	   					<h3>High School</h3>
-	   					<p>2015 - 2018</p>
-	   				</div>
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
 
-	   				<div class="timeline-content">
-	   					<h4><a href="">Lenana  School</a></h4>
-	   					<p>Completed my High schooling at the Lenana School - Nairobi, Kenya.</p>
-	   				</div>
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="./assets/img/neuralBlack.png" alt="mental-health-chatbot" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Mental Health Chattbot</h3>
+                                <p class="portfolio__description">
+                                    This is an AI-powered mental health chatbot designed to provide users with emotional support, coping strategies, and resources for mental well-being through natural language conversations.
+                                         </p>
+                                <div class="github-stars" data-repo="rogendo/mental-health-chatbot">
+                                    <i class="uil uil-star"></i><p class="stars-count">Loading...</p>
+                                    <br>
+                                </div>
+                                <a href="https://github.com/Rogendo/Mental-health-Chatbot" class="button button--flex button--small portfolio__button">
+                                    View
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="./assets/img/openchs-ai.jpeg" alt="openchs-ai art" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">OPENCHS - AI Service</h3>
+                                <p class="portfolio__description">This Repository takes care of all AI requirement in the OPENCHLAI Child Helpline.
+This project is an advanced AI-driven solution for voice processing and case prediction. It enables automated transcription, translation, case classification and summarization to enhance efficiency in call management systems.</p> <div class="github-stars" data-repo="rogendo/openchs-ai">
+                                    <i class="uil uil-star"></i> 
+                                    <p class="stars-count">Loading...</p>
+                                    <br>
+                                </div>
+                                <a href="https://github.com/Rogendo/drive-ai" class="button button--flex button--small portfolio__button">
+                                    View
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
 
-	   			</div> <!-- /timeline-block -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="./assets/img/translation.png" alt="en-sw-translation-service" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">English Swahili Translation Service</h3>
+                                <p class="portfolio__description">
+                                    This English-Swahili Translation Service is a language translation solution designed to bridge communication gaps between English and Swahili speakers. 
+                                    Utilizing advanced machine learning techniques, the service provides accurate and context-aware translations
+                                </p>
+                                <div class="github-stars" data-repo="rogendo/en-sw-translation-service">
+                                    <i class="uil uil-star"></i> 
+                                    <p class="stars-count">Loading...</p>
+                                    <br>
+                                </div>
+                                <a href="https://github.com/Rogendo/Eng-Swa-Translator" class="button button--flex button--small portfolio__button">
+                                    In Dev
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
 
-   			</div> <!-- /timeline-wrap -->   			
+                        
 
-   		</div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /resume-timeline -->
-	<!-- Communities -->
-	<div class="row resume-timeline">
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="./assets/img/prompt_eng.png" alt="Prompt engineering icon" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Prompt Engineering</h3>
+                                <p class="portfolio__description">
+                                    This project is a community-based research program in partnership with JHUB and Makerere University. The purpose was to help Google better understand the needs of its diverse users and to improve
+                                    Google's AI products and Services, by helping them identify, label and annotate bias in prompts.                               
+                                </p>
+                                <div class="github-stars" data-repo="rogendo/prompt-engineering">
+                                    <i class="uil uil-star"></i> 
+                                    <p class="stars-count">Loading...</p>
+                                    <br>
+                                </div>
+                                <a href="https://github.com/Rogendo/" class="button button--flex button--small portfolio__button">
+                                    View
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
 
-		<div class="col-twelve resume-header">
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="./assets/img/stock-bot.png" alt="Stock bot icon" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Stock Price and Direction Predictor</h3>
+                                <p class="portfolio__description">This project explores the application of Deep Learning to financial time-series forecasting.
+The models utilize historical OHLCV data to predict two outputs:
 
-			<h2>Communities</h2>
+<b>Price Vector:</b> The projected closing price for the next time step and
+<b>Directional Probability</b>
+                                <div class="github-stars" data-repo="aksh-ai/stock_bot">
+                                    <i class="uil uil-star"></i> 
+                                    <p class="stars-count">Loading...</p>
+                                    <br>
+                                </div>
+                                <a href="https://stock-lstm.streamlit.app/" class="button button--flex button--small portfolio__button">
+                                    View
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
 
-		</div> <!-- /communities-header -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="./assets/img/jenga.png" alt="Jenga-AI" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">JengaAI - Deep Learning Framework</h3>
+                                <p class="portfolio__description">JengaAI is a Deep Learning Framework for Python, that aims to deliver high user-friendliness, fast and cheap prototyping Machine Learning models
+                                    and user-experience simplifying technicality and improving accessibility to the general population.</p>
+                                <div class="github-stars" data-repo="rogendo/Jenga-AI">
+                                    <i class="uil uil-star"></i> 
+                                    <p class="stars-count">Loading...</p>
+                                    <br>
+                                </div>
+                                <a href="https://github.com/Rogendo/Jenga-AI" class="button button--flex button--small portfolio__button">
+                                View
+                                <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
 
-		<div class="col-twelve">
+                    </div>
 
-			<div class="timeline-wrap">
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
 
-				<div class="timeline-block">
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
 
-					<div class="timeline-ico">
-						<i class="uil uil-briefcase"></i>
-					</div>
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact</h2>
+                <span class="section__subtitle">Get in touch with me</span>
 
-					<div class="timeline-header">
-						<h3><a href="https://www.datascienceafrica.org">Data Science Africa</a></h3>
-						<p>6 May 2023 - 14 May 2023</p>
-					</div>
+                <div class="contact__container container grid">
+                    <div>
+                        
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">rogendopeter@gmail.com</span>
+                            </div>
+                        </div>
 
-					<div class="timeline-content">
-						<!-- datascience Africa  -->
-						<h4><a href="https://www.ur.ac.rw">University of Rwanda</a></h4>
-						<p>Attended the annual DSA conference and workshop and participated in a summercamp in The University of Rwanda - Kigali, Rwanda. </p>
-					</div>
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Nairobi, Kenya </span>
+                            </div>
+                        </div>
 
-				</div> <!-- /timeline-block -->
-				<div class="timeline-block">
+                        <div class="contact__information">
+                            <i class="uil uil-coffee contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Coffee with Rogendo - Thursdays @ 6PM</h3>
+                                <span class="contact__subtitle"><a href="https://restaurants.artcaffe.co.ke/artcaffe-gastro-bar-ke-nairobi-county-nairobi-embakasi-21118/Map">Artcaffé Imaara Mall, Mombasa Road</a></span>
+                            </div>
+                        </div>
+                    </div>
 
-				 <div class="timeline-ico">
-					 <i class="uil uil-briefcase"></i>
-				 </div>
+                </div>
 
-				 <div class="timeline-header">
-					 <h3><a href="https://kabarak.ac.ke/research-news">ML, AI, and Data Science Bootcamps</a></h3>
-					 <p>Dec 2022 - Feb 2023</p>
-				 </div>
+            </section>
+        </main>
 
-				 <div class="timeline-content">
-					 <h4><a href="https://kabarak.ac.ke/research-news/a-successful-health-ds-hackathon-at-kabu">Kabarak University</a></h4>
-					 <p>Completed a series of classes in  Machine Learning, Artificial Intelligence and Data Science at Kabarak University. I also participated in HealthIT hackathons.</p>
-				 </div>
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Rogendo</h1>
+                        <span class="footer__subtitle"></span>
+                    </div>
 
-			 </div> <!-- /timeline-block -->
-			 
-			 
-				<div class="timeline-block">
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#research" class="footer__link">Research</a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="footer__link">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contact</a>
+                        </li>
+                    </ul>
 
-					<div class="timeline-ico">
-						<i class="uil uil-briefcase"></i>
-					</div>
+                    <div class="footer__socials">
+                        <a href="https://www.github.com/Rogendo" target="_blank" class="footer__social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/peter-rogendo/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://x.com/nayneK254" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+                    </div>
+                </div>
 
-					<div class="timeline-header">
-						<h3><a href="https://zindi.africa/competitions/">Zindi Africa</a></h3>
-						<p>2022</p>
-					</div>
+                <p class="footer__copy">&#169; Rogendo 2025</p>
+            </div>
+        </footer>
 
-					<div class="timeline-content">
-						<h4><a href="https://www.uonbi.ac.ke">University of Nairobi </a></h4>
-						<p>Competed for a prize on a Sign language classification hackathon with other countries at the University of Nairobi  - Nairobi, Kenya.</p>
-					</div>
+        <a href="#" class="scrollup" id="scroll-top">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
 
-				</div> <!-- /timeline-block -->
+        <script src="./assets/js/swiper-bundle.min.js"></script>
 
-			</div> <!-- /timeline-wrap -->   			
-
-		</div> <!-- /col-twelve -->
-		
-	</div> <!-- /communities-timeline -->
-	 
-
-	</section> <!-- /features -->
-
-
-	<!-- Portfolio Section
-   ================================================== -->
-	<section id="portfolio">
-
-		<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>Portfolio</h5>
-   			<h2>Check Out Some of My Best Works.</h2>
-
-   			<p class="lead">These Projects have helped me develop my Skills and understand the software development industry better.</p>
-
-   		</div>   		
-   	</div> <!-- /section-intro--> 
-
-   	<div class="row portfolio-content">
-
-   		<div class="col-twelve">
-
-   			<!-- <p style="text-align:center; font-size: 30px;">Coming Soon Still Under Construction</p> -->
-			<div class="row button-section">
-				<div class="col-twelve">
-					<a href='https://www.figma.com/file/QIfggEzF8Z44NiIT6n3D43/Carpooler-App?type=design&t=yJb6EYwjeCCqCqLk-1'><img src="./scrsht10.png" alt="Rogendo" class="project-img"></a>
-					<a href='https://github.com/Rogendo/LoanPrediction-MachineLearning'><img src="./scrsht.png" alt="Rogendo" class="project-img"></a>
-					<a href='https://github.com/Rogendo/talent'><img src="./scrsht4.png" alt="Rogendo" class="project-img"></a>		
-					<a href='https://github.com/Rogendo/Crop_Yield_Prediction'><img src="./scrsht9.png" alt="Rogendo" class="project-img"></a>
-					<a href='https://github.com/Rogendo/ComradeMarketPlace'><img src="./scrsht11.png" alt="Rogendo" class="project-img"></a>
-
-				</div>   		
-			</div>
-   		</div>  <!-- /twelve -->   
-
-   	</div> <!-- /portfolio-content --> 
-	
-	</section> <!-- /portfolio --> 
-
-
-
-
-	
-	
-   <!-- footer ================================================== -->
-	<footer>
-     	<div class="row">
-
-		<div class="col-six tab-full pull-right social">
-
-			<ul class="footer-social">
-				<li><a href="https://github.com/Rogendo" target="_blank"><i class="uil uil-github-alt"></i></a></li>
-				<li><a href="https://www.linkedin.com/in/peter-rogendo/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></li>
-				<li><a href="https://twitter.com/RogendoPeter?s=09" target="_blank"><i class="uil uil-twitter-alt"></i></a></li>
-				<li><a href="https://api.whatsapp.com/send?phone=254794197997" target="_blank"><i class="uil uil-whatsapp"></i></i></a></li>
-			</ul> 
-			
-		</div>
-
-      	<div class="col-six tab-full">
-	      	<div class="copyright">
-		        	<span>© Copyright 2023 </span> 
-		        	<span>Design by <a href="https://www.linkedin.com/in/peter-rogendo/"> Peter Rogendo </a></span>	         	
-		         </div>		                  
-	      	</div>
-
-	      	<div id="go-top">
-		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-		    </div>
-
-      	</div> <!-- /row -->     	
-   </footer>  
-   
-   <div id="preloader"> 
-    	<div id="loader"></div>
-   </div> 
-
-   <!-- Java Script
-   ================================================== --> 
-   <script src="jquery-2.1.3.min.js"></script>
-   <script src="plugins.js"></script>
-   <script src="main.js"></script>
-
-</body>
-
+        <script src="./assets/js/main.js"></script>
+    </body>
 </html>
