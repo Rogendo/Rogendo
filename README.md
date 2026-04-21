@@ -18,7 +18,7 @@
 - 👨‍💻 Actively building and deploying AI tools for real-world health and societal impact.
 - 💬 Ask me about digital health, AI/ML, LLMs, GenAI, Python, or end-to-end software delivery.
 - 📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/peter-rogendo/)
-- ⚡ Fun fact: Give it a trial even when you think you can't do it! Thank me later 😂
+
 
 ---
 
