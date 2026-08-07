@@ -14,9 +14,9 @@
 
 ---
 
-- 🌱 Specializing in digital solutions architect, public sector AI, and ethical data solutions.
-- 👨‍💻 Actively building and deploying AI tools for real-world health and societal impact.
-- 💬 Ask me about digital health, AI/ML, LLMs, GenAI, Python, or end-to-end software delivery.
+- 🌱 Specializing in digital solutions architect, public sector solutions, and ethical data solutions.
+- 👨‍💻 Actively building and deploying software tools for real-world health and societal impact.
+- 💬 Ask me about Data, digital health, ML, LLMs, GenAI, Python, or end-to-end software delivery.
 - 📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/peter-rogendo/)
 
 
@@ -25,11 +25,10 @@
 <h3>What I Do</h3>
 
 <li>Design and deploy digital health and public sector platforms (East Africa, beyond)</li>
-<li>Architect and lead implementation of AI-driven solutions, e.g.:
+<li>Architect and lead implementation of Data-driven solutions, e.g.:
   <ul>
-    <li>n8n AI/ML process and workflow automations</li>
+    <li>n8n LLM/ML process and workflow automations</li>
     <li>Multilingual chatbots and agentic systems</li>
-    <li>AI modules powering child helpline systems across several countries</li>
     <li>Bias reduction for LLMs via Google/Makerere AI Labs partnership</li>
   </ul>
 </li>
@@ -37,7 +36,7 @@
 <h3>SKILLS</h3>
 <li>Business Analysis & Requirements Engineering</li>
 <li>Digital Health & Health IT</li>
-<li>AI/ML Solution Design & Development</li>
+<li>Solution Design & Development</li>
 <li>Software Engineering: Python, JavaScript, Django, Node.js</li>
 <li>Data Analysis & Annotation, NLP</li>
 <li>MLOps & Deployment</li>
